@@ -80,12 +80,12 @@
 				<div class="row">
 					<div class="col-lg-12 text-right">
 						<div class="logo_container">
-							<a href="#">E-COM<span>shop</span></a>
+							<a class="nav-link" href="/">E-COM<span>shop</span></a>
 						</div>
 						<nav class="navbar">
 							<ul class="navbar_menu">
-								<li><a href="#">home</a></li>
-								<li><a href="#">shop</a></li>
+								<li><a class="nav-link" href="/">home</a></li>
+								<li><a class="nav-link" href="product">shop</a></li>
 								<li><a href="#">promotion</a></li>
 								<li><a href="#">pages</a></li>
 								<li><a href="#">blog</a></li>
@@ -94,7 +94,7 @@
 							<ul class="navbar_user">
 								<li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
 								<li class="checkout">
-									<a href="#">
+									<a class="nav-link" href="product">
 										<i class="fa fa-shopping-cart" aria-hidden="true"></i>
 										<span id="checkout_items" class="checkout_items">8</span>
 									</a>
@@ -160,56 +160,7 @@
 			</ul>
 		</div>
 	</div>
-
-	<!-- Slider -->
-	<div class="main_slider">
-		<div class="parallax">
-		<div class="container fill_height">
-			<div class="row align-items-center fill_height">
-				<div class="col">
-					<div class="main_slider_content">
-						<h6>Spring / Summer Collection 2019</h6>
-						<h1>Get up to 40% Off on New Arrivals</h1>
-						<div class="red_button shop_now_button"><a href="#">shop now</a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
-
-
-	<!-- Banner -->
-
-	<div class="banner">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="banner_item align-items-center" style="background-image:url(images/femail_banner.png)">
-						<div class="banner_category">
-							<a href="categories.html">women's</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="banner_item align-items-center" style="background-image:url(images/acce.png)">
-						<div class="banner_category">
-							<a href="categories.html">accessories's</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="banner_item align-items-center" style="background-image:url(images/male_banner.jpg)">
-						<div class="banner_category">
-							<a href="categories.html">men's</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-
+	
 @yield('content')
 
 	<!-- Footer -->
