@@ -20,7 +20,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/logout', 'Auth\LoginController@logout');
 Route::group(['prefix'=>'admin', 'middleware'=>'auth'], function() {
-
+    
     Route::get('/', function(){
         return view('admin.index');
     });
